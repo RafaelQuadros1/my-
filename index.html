@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="portfolio de um pequeno programador.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>my port</title>
+    <link rel="shortcut icon" href="img/logo_pag.svg" type="image/.svg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+ 
+    <header>
+    <nav class="nav-bar">
+        <div class="lg">
+            <img src="img/logo.svg" alt="GHOST" >
+        </div>
+    
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="#home" class="nav_link">home</a></li>
+                <li class="nav-item"><a href="#" class="nav_link">Currículo</a></li>
+                <li class="nav-item"><a href="#geral" class="nav_link">Sobre</a></li>
+                <li class="nav-item"><a href="#" class="nav_link">Contato</a></li>
+            </ul>
+        </div>
+        
+        <div class="mobil-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="img/menu-icon.svg" ></button>
+        </div>
+      </nav>
+
+      <div class="mobil-menu">
+        <ul>
+            <li class="nav-item"><a href="#home" class="nav_link">home</a></li>
+            <li class="nav-item"><a href="#" class="nav_link">Currículo</a></li>
+            <li class="nav-item"><a href="#geral" class="nav_link">Sobre</a></li>
+            <li class="nav-item"><a href="#" class="nav_link">Contato</a></li>
+        </ul>
+      </div>
+</header>
+<body>
+   
+<script src="app.js"></script>
+
+        <div id="home">
+               <div class="img">
+                <img class="ap1" src="img/html.svg">
+                <img class="ap2" src="img/css.svg">
+                <img class="ap3" src="img/js.svg">
+            </div> 
+            
+                <h6>Hi, i'm Rafael</h6>
+                <p>Front-End Developer</p>
+        
+            
+            
+            <div class="redes">
+                <a class="social" href="https://github.com/RafaelQuadros1"><img class="rds" src="img/github.svg"></a>
+                <a class="social" href="https://wa.me/5571988653326?text=Estou%20interessado%20em%20seus%20serviços"><img class="rds" src="img/whatsap.svg"></a>
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="slides">
+                <!--button de rolagem-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+            
+                <div class="slide first">
+                    <img src="img/ta.svg" alt="img-1" />
+                  </div>
+                  <div class="slide ">
+                    <img src="img/pc.svg" alt="img-1" />
+                  </div>
+            
+                  <!--navigation auto--
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>     
+                </div>-->
+
+            </div>
+            <!--<div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+            </div>--> 
+
+<script src="banner.js"></script>
+        </div>
+
+        <div id="geral">
+                <details>
+                    <summary>sobre</summary>
+                    <p >
+            Sou um desenvolvedor júnior em aprendizado no front-end. Este portfólio é meu primeiro projeto no front-end e também contém um pouco de 
+            back-end. Ainda não me sinto preparado para desafios maiores no mercado, apesar de conhecer várias funções. No entanto, consigo aprender 
+            tags rapidamente e minha lógica de programação com JavaScript é boa. Achei a adaptação de código em JavaScript tranquila. No momento, estou 
+            evitando usar as famosas I.A. disponíveis no mercado.
+        </p>
+    </details>
+</div>
+</body>
+</html>
